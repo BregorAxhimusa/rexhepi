@@ -1,0 +1,233 @@
+@import url('colors.css');
+@import url('custom-fonts.css');
+
+/* background-colors */
+.bg-secondary {
+  background-color: #dfe3ea !important;
+  background: linear-gradient(180deg, #fff, #f6f7f9);
+  border-color: #d7dce5;
+  color: #6c6c74 !important;
+  box-shadow: 0 1px 0 0 rgba(20, 20, 31, .05);
+}
+
+.bg-green {
+  background-color: #23A671 !important;
+  padding: 10px;
+  color: #fff;
+}
+
+.bg-green:hover,
+.bg-blue:hover {
+  color: #fff !important;
+}
+
+.btn-default {
+  height: 45px;
+  border: 1px solid #c4c4c4;
+  color: #7a7a7a;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  color: #7a7a7a;
+}
+
+.bg-default {
+  border: 1px solid #c4c4c4;
+  color: #7a7a7a;
+}
+
+.bg-default:hover {
+  color: #7a7a7a;
+}
+
+.bg-gradient-green {
+  background: linear-gradient(to right, #0ac282, #0df3a3);
+  color: #fff;
+}
+
+.bg-blue {
+  background-color: #346cb0 !important;
+  color: #fff;
+}
+
+.bg-info {
+  background-color: #37d5f2;
+  color: #fff;
+}
+
+.bg-danger {
+  background-color: #f75676;
+  color: #fff;
+}
+
+.bg-gray {
+  background: #f6f7f8;
+  color: #5b5b5b !important;
+}
+
+.theme-2 .card .btn {
+  width: 180px;
+  height: 45px;
+  font-family: 'Poppins Regular', sans-serif;
+}
+
+.card .bg-blue {
+  width: 180px;
+  height: 45px;
+}
+
+/* text */
+.text-blue {
+  color: #346cb0 !important;
+}
+
+.text-green {
+  color: #23A671;
+}
+
+.text-gray {
+  color: #666;
+}
+
+.text-gray-shadow {
+  color: rgba(83, 81, 81, 0.658);
+}
+
+.badge-danger {
+  background-color: #f75676 !important;
+}
+
+/* font-weights */
+.font-sm {
+  font-size: 0.87rem !important;
+}
+
+.font-md {
+  font-size: 1.15rem !important;
+}
+
+.font-1 {
+  font-size: 0.95rem;
+}
+
+.font-2 {
+  font-size: 2rem !important;
+}
+
+.font-large {
+  font-size: 1rem !important;
+}
+
+.form-control {
+  font-size: .8rem;
+}
+
+/* svg,
+.far,
+.fas {
+    font-size: 0.8rem!important;
+} */
+p,
+a {
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+}
+
+form label {
+  font-weight: 400 !important;
+}
+
+.btn:hover {
+  opacity: 0.9 !important;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif !important;
+  line-height: 2
+}
+
+label {
+  font-size: 15px !important;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 0
+}
+
+.nav-link.active {
+  background-color: #23a671 !important;
+  color: #fff !important
+}
+
+.log-box {
+  border: 1px solid #d9d9d9 !important;
+}
+
+.log-box .form-control {
+  border-radius: 5px !important;
+  margin: 5px 0;
+  height: 45px;
+}
+
+.log-box .form-control:focus {
+  background-color: transparent;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: #23a671;
+  -webkit-transition: linear 500ms !important;
+  -o-transition: linear 500ms !important;
+  transition: linear 500ms !important
+}
+
+.log-col {
+  margin: 50px
+}
+
+.log-col .page-header h2 {
+  font-size: 24px !important;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 30px
+}
+
+.log-col .log-box {
+  border-radius: 10px
+}
+
+.log-col .log-box .card-footer {
+  padding: 0;
+  background-color: #B1B1B1
+}
+
+.log-col .log-box .card-footer .nav-link {
+  color: #fff;
+  border: none !important;
+  border-radius: 0;
+  border-bottom-right-radius: 5px;
+  font-weight: 400 !important
+}
+
+.log-col .log-box .card-footer .nav-link:hover {
+  background-color: rgb(38, 182, 124) !important
+}
+
+.log-col .log-box .form-gutter {
+  padding: 30px 35px
+}
+
+.signup .buttons .nav-link {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-transform: uppercase;
+  color: #B1B1B1
+}
+
+.card-footer .nav-link,
+.buttons .nav-link,
+.signup button {
+  font-size: 14px !important;
+  text-transform: capitalize;
+  letter-spacing: .07em !important
+}

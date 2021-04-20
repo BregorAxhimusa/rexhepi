@@ -1,0 +1,139 @@
+@media screen {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -14rem;
+    border: none !important;
+    background-color: transparent !important;
+    transition: .6s;
+  }
+
+}
+
+@media (max-width:1024px) {
+  #menu-toggle {
+    display: none;
+  }
+
+  #sidebar-wrapper {
+    margin-left: -80px;
+    min-width: 25%;
+    padding-right: 20px;
+  }
+
+  #sidebar-wrapper .custom-siderbar a span {
+    padding-left: 70px;
+  }
+
+  #sidebar-wrapper .custom-siderbar a {
+    width: 100%;
+  }
+
+  #page-content-wrapper {
+    margin-right: 40px;
+  }
+
+  #pageSubmenu a {
+    width: 95% !important;
+    padding-left: 40px;
+  }
+
+  section {
+    margin-left: 30px;
+  }
+
+  table {
+    min-width: 200%;
+  }
+
+}
+
+@media (max-width:812px) {
+  #main-clickpage .custom-cardother-left {
+    margin-left: 15px;
+    max-width: 100%;
+  }
+
+}
+
+@media(min-width:768px) {
+  .w-md-25 {
+    width: 25% !important;
+  }
+
+}
+
+@media (max-width:768px) {
+  #main-clickpage .custom-cardother-left {
+    margin-left: 15px;
+    max-width: 100%;
+  }
+
+  .slider-images {
+    height: 320px !important;
+    width: 100% !important;
+  }
+
+  .lSSlideOuter .lSPager.lSGallery img {
+    height: 40px !important;
+  }
+
+  .navbar .navbar-brand img {
+    width: 100px;
+  }
+
+  #header .custom-sw {
+    font-size: 11.5px !important;
+    padding: 7px 20px 20px 20px;
+  }
+
+  #header .custom-sw:hover {
+    background-color: #208757;
+    color: #fff;
+  }
+
+}
+
+@media (max-width:375px) {
+  #menu-toggle {
+    display: block;
+    padding: 10px;
+  }
+
+  #sidebar-wrapper {
+    min-width: 60%;
+  }
+
+  section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #sidebar-wrapper .custom-siderbar a {
+    width: 90%;
+  }
+
+  #page-content-wrapper {
+    margin-right: 0px;
+  }
+
+  table {
+    margin-left: 48px;
+  }
+
+  .input-group-prepend {
+    margin-left: 33px;
+  }
+
+  #main-clickpage .custom-cardother-left {
+    margin-left: 10px;
+    max-width: 100%;
+  }
+
+  #sidebar-wrapper {
+    display: none;
+  }
+
+}
